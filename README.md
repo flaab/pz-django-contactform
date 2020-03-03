@@ -1,6 +1,6 @@
 # Yet another Django Contact Form
 
-A bootstrapped, captha protected and customizable django contact form app for your django website. 
+A bootstrapped, recaptcha protected and customizable django contact form app for your django website. 
 
 ![PZ-Django-Contactform](https://www.dropbox.com/s/fzvl4jp0vb7i8bo/djangocontact.png?raw=1)
 
