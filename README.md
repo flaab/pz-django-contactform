@@ -1,6 +1,6 @@
 # Yet another Django Contact Form
 
-A bootstrapped django contact form app that implements a contact form for your django website.
+A bootstrapped, captha protected and customizable django contact form app for your django website. 
 
 ![PZ-Django-Contactform](https://www.dropbox.com/s/fzvl4jp0vb7i8bo/djangocontact.png?raw=1)
 
