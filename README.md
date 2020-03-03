@@ -97,10 +97,11 @@ To further customize the application to do what you need, you can:
 The templates are organized in three categories: extendable templates, includable templates and page templates. Each uses a different naming convention. The templates the application uses are the following, which you can edit to fit your needs. Stylesheets and Javascript files are hotlinked from cdn repositories but you can place your own under *account/static/*.
 
 - *templates/_messages.html* => Template to display flash messages (error, warning, validation error, success)
-- *templates/account/__l_base.html* => Base layout for the application 
-- *templates/account/_sidebar.html* => Navigation sidebar 
-- *templates/account/form.html* => Template for the contact form page
-- *templates/account/success.html* => Template for the success page
+- *templates/contactform/__l_base.html* => Base layout for the application 
+- *templates/contactform/_sidebar.html* => Navigation sidebar template
+- *templates/contactform/_recaptcha_field.html => Template for the recaptcha field inclusion tag 
+- *templates/contactform/form.html* => Template for the contact form page
+- *templates/contactform/success.html* => Template for the success page
 
 ## Authors
 **Arturo Lopez Perez** - Main and sole developer (so far).
