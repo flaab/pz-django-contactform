@@ -99,7 +99,7 @@ The templates are organized in three categories: extendable templates, includabl
 - *templates/_messages.html* => Template to display flash messages (error, warning, validation error, success)
 - *templates/contactform/__l_base.html* => Base layout for the application 
 - *templates/contactform/_sidebar.html* => Navigation sidebar template
-- *templates/contactform/_recaptcha_field.html => Template for the recaptcha field inclusion tag 
+- *templates/contactform/_recaptcha_field.html* => Template for the recaptcha field inclusion tag 
 - *templates/contactform/form.html* => Template for the contact form page
 - *templates/contactform/success.html* => Template for the success page
 
