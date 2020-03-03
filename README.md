@@ -2,7 +2,7 @@
 
 A bootstrapped, recaptcha protected and customizable django contact form app for your django website. 
 
-![PZ-Django-Contactform](https://www.dropbox.com/s/fzvl4jp0vb7i8bo/djangocontact.png?raw=1)
+![PZ-Django-Contactform](https://www.dropbox.com/s/qv7d0mbpel4yfpj/djangocontact.png?raw=1)
 
 ## Requirements
 - Python >= 3.0
