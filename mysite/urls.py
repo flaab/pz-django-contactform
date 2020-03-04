@@ -21,6 +21,7 @@ from . import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('contact/', include(('contactform.urls', 'contact'), namespace = 'contact')),
+    path('', include(('contactform.urls', 'contact'), namespace = 'contact-default')),
 ]
 
 if(settings.DEBUG):
