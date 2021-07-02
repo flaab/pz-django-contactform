@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-02 22:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps.py:20
+msgid "A reusable contact form developed for Django"
+msgstr ""
+
+#: apps.py:21
+msgid "Proudly powered by PZ-Django-Contactform"
+msgstr ""
+
+#: forms.py:5
+msgid "Name"
+msgstr ""
+
+#: forms.py:6
+msgid "E-Mail"
+msgstr ""
+
+#: forms.py:7
+msgid "Subject"
+msgstr ""
+
+#: forms.py:8
+msgid "Message"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:4
+msgid "About us"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:7
+msgid "Address"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:9
+msgid "Mailing Address"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:11
+msgid "Working Hours"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:12
+msgid "Monday-Friday 9AM to 17PM GMT+1"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:17
+msgid "What to expect"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:20
+msgid "We don't work during weekends"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:21
+msgid "Unpolite messages are ignored"
+msgstr ""
+
+#: templates/contactform/_sidebar.html:22
+msgid "Feedback is always welcomed"
+msgstr ""
+
+#: templates/contactform/form.html:10
+msgid "Contact Us"
+msgstr ""
+
+#: templates/contactform/form.html:11
+msgid ""
+"Kindly fill the following form to drop us a line. We'll reply as soon as "
+"possible"
+msgstr ""
+
+#: templates/contactform/success.html:9
+msgid "Thank you!"
+msgstr ""
+
+#: templates/contactform/success.html:10
+msgid "Your message has been received, we'll reply as soon as possible."
+msgstr ""

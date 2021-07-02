@@ -56,6 +56,25 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
 
+
+# Internationalization
+LANGUAGE_CODE = 'en' # Changed to en from en-us
+TIME_ZONE = 'UTC'
+USE_I18N = True
+USE_L10N = True
+USE_TZ = True
+LANGUAGES = (
+    ('en', _('English')),
+    ('es', _('Spanish')),
+    ('de', _('German')),
+    ('it', _('Italian')),
+    ('fr', _('French')),
+    ('ru', _('Russian')),
+    ('ja', _('Japanese')),
+    ('pt', _('Portuguese')),
+)
+LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale/'),)
+
 # Email backend 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = ‘smtp.server.com’

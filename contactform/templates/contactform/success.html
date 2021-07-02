@@ -1,12 +1,13 @@
 {% extends "contactform/__l_base.html" %}
 {% load crispy_forms_tags %}
+{% load i18n %}
 {% block title %}{% if meta_title %}{{ meta_title|capfirst }} - {% endif %}{{ block.super }}{% endblock %}
 {% block meta_description %}{% if meta_description %}{{ meta_description }}{% endif %}{% endblock %}
 {% block content %}
  <div class="card mt-0 mb-5">
     <div class="card-body pl-5 pr-5 pb-3 pt-4">
-        <h1 class="mb-4 mt-2 h2">Thank you!</h1>
-        <p class="mb-4">Your message has been received, we'll reply as soon as possible.</p>
+        <h1 class="mb-4 mt-2 h2">{% trans "Thank you!" %}</h1>
+        <p class="mb-4">{% trans "Your message has been received, we'll reply as soon as possible." %}</p>
     </div>
 </div>
 {% endblock %}

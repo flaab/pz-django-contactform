@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-02 22:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:20
+msgid "A reusable contact form developed for Django"
+msgstr "Un formulario de contacto para Django"
+
+#: apps.py:21
+msgid "Proudly powered by PZ-Django-Contactform"
+msgstr "Desarrollado por PZ-Django-Contactform"
+
+#: forms.py:5
+msgid "Name"
+msgstr "Nombre"
+
+#: forms.py:6
+msgid "E-Mail"
+msgstr "Correo electrónico"
+
+#: forms.py:7
+msgid "Subject"
+msgstr "Asunto"
+
+#: forms.py:8
+msgid "Message"
+msgstr "Mensaje"
+
+#: templates/contactform/_sidebar.html:4
+msgid "About us"
+msgstr "Sobre nosotros"
+
+#: templates/contactform/_sidebar.html:7
+msgid "Address"
+msgstr "Donde estamos"
+
+#: templates/contactform/_sidebar.html:9
+msgid "Mailing Address"
+msgstr "Buzón de correo"
+
+#: templates/contactform/_sidebar.html:11
+msgid "Working Hours"
+msgstr "Horarios"
+
+#: templates/contactform/_sidebar.html:12
+#, fuzzy
+#| msgid "Monday-Friday 9AM to 5PM GMT+1"
+msgid "Monday-Friday 9AM to 17PM GMT+1"
+msgstr "Lunes-Viernes 9AM - 5PM GMT+1"
+
+#: templates/contactform/_sidebar.html:17
+msgid "What to expect"
+msgstr "Más información"
+
+#: templates/contactform/_sidebar.html:20
+msgid "We don't work during weekends"
+msgstr "No trabajamos los fines de semana"
+
+#: templates/contactform/_sidebar.html:21
+msgid "Unpolite messages are ignored"
+msgstr "Mensajes maleducados serán ignorados"
+
+#: templates/contactform/_sidebar.html:22
+msgid "Feedback is always welcomed"
+msgstr "Las sugerencias son siempre bienvenidas"
+
+#: templates/contactform/form.html:10
+msgid "Contact Us"
+msgstr "Contacto"
+
+#: templates/contactform/form.html:11
+msgid ""
+"Kindly fill the following form to drop us a line. We'll reply as soon as "
+"possible"
+msgstr "Rellene el siguiente formulario. Responderemos lo antes posible."
+
+#: templates/contactform/success.html:9
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#: templates/contactform/success.html:10
+msgid "Your message has been received, we'll reply as soon as possible."
+msgstr "Su mensaje ha sido enviado. Responderemos lo antes posible."
