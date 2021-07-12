@@ -10,7 +10,7 @@ A bootstrapped, recaptcha protected and customizable i18n django contact form ap
 - Crispy-forms
 - Hashlib
 
-##Languages
+## Languages
 
 Gettext files are available for the following languages:
 
