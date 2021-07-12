@@ -1,6 +1,6 @@
 # Yet another Django Contact Form
 
-A bootstrapped, recaptcha protected and customizable django contact form app for your django website. 
+A bootstrapped, recaptcha protected and customizable i18n django contact form app for your django website. 
 
 ![PZ-Django-Contactform](https://www.dropbox.com/s/qv7d0mbpel4yfpj/djangocontact.png?raw=1)
 
@@ -9,6 +9,19 @@ A bootstrapped, recaptcha protected and customizable django contact form app for
 - Django >= 2.2.6
 - Crispy-forms
 - Hashlib
+
+##Languages
+Gettext files are available for the following languages:
+ - English
+ - Spanish
+ - German (translation pending)
+ - Italian (translation pending)
+ - French (translation pending)
+ - Russian (translation pending)
+ - Japanese (translation pending)
+ - Portuguese (translation pending)
+
+Kindly share the .po files if you create translations for these languages.
 
 ## Installation
 Create a directory and clone the project.
