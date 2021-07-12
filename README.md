@@ -11,7 +11,9 @@ A bootstrapped, recaptcha protected and customizable i18n django contact form ap
 - Hashlib
 
 ##Languages
+
 Gettext files are available for the following languages:
+
  - English
  - Spanish
  - German (translation pending)
